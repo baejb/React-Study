@@ -1,16 +1,13 @@
 import React from 'react';
+import styled from 'styled-components';
+
 
 function Hello(){
-    const PracticeStyle ={
-        marginTop: '10px',
-        backgroundColor: 'blue',
-    };
-    return( <>
-        <div style={PracticeStyle}>Hello World!</div>
-        <div style={PracticeStyle}>Hello World!</div>
-        <div style={PracticeStyle}>Hello World!</div>
-        </> 
-    );
+    const StyledButton =styled.button`
+        color:red;
+        backgroud-color:gray;
+    `;
+    return <StyledButton>나만의 버튼</StyledButton>;
 
 }
 export default Hello;
