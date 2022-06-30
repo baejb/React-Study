@@ -1,6 +1,6 @@
 import React from 'react';
 
 function Hello(){
-    return <div>Hello World!</div>;
+    return <div style={{ marginTop: '10px', backgroundColor: 'red'}}>Hello World!</div>;
 }
 export default Hello;
